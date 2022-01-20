@@ -1,0 +1,88 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* font-family: 'Bebas Neue', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+*{
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+}
+header{
+    background-color: #FFFBF0;
+}
+header .heading{
+    margin-top: 80px;
+}
+header .heading h1{
+    font-size: 3.5em;
+}
+header h1 span{
+    color: #FABE4C;
+}
+.nav-item a{
+    font-family: 'Roboto', sans-serif;
+}
+.button{
+    background-image: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    font-family: 'Roboto', sans-serif;
+}
+.row{
+    width: 1171px;
+}
+.trans:hover{
+    transform: scale(1.02);
+    transition: transform 0.2s;
+}
+.column-card{
+    border-radius: 20px;
+}
+.img{
+    width: 334px;
+    height: 327px;
+    background-color: #F1F1F1;
+    border-radius: 20px;
+}
+.card-title{
+    font-family: 'Roboto', sans-serif
+}
+.card-text{
+    font-family: 'Roboto', sans-serif
+}
+.button-link{
+    height: 75%;
+}
+.button-link h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    color: #FABE4C;
+}
+.button-link a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    width: 55%;
+    height: auto;
+    border-radius: 5px;
+    background-image: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+}
+.article h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+.article p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+footer p{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: #cbcbcc;
+    text-align: center;
+    font-size: 1em;
+}
